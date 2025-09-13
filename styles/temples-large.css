@@ -1,0 +1,12 @@
+
+@media (min-width: 640px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .figures {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
