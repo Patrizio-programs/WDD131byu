@@ -1,0 +1,58 @@
+.country-name{
+    height: 150px;
+    background-color: gold;
+}
+
+.country-name h1{
+    text-align: center;
+}
+
+.hero {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-image: url("../images/herolarge.jpg");
+}
+ 
+
+
+
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+
+.data-card {
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 16px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  position: absolute;
+  left: 16px;
+}
+
+.weather{
+  position: absolute;
+  width: 150px;
+  right: 16px;
+  bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%; /* Ensures the image does not exceed the container width */
+  height: auto;    /* Maintains the image's aspect ratio */
+  display: block;  /* Removes default inline spacing issues */
+  margin: 0 auto;  /* Centers the image horizontally if needed */
+}
