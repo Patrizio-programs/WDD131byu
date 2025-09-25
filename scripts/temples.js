@@ -1,24 +1,16 @@
-// temples.js
 function displayCopyright() {
-  const currentYear = new Date().getFullYear();
+  const t = new Date().getFullYear();
   document.getElementById(
     "currentyear"
-  ).textContent = `© ${currentYear} Patrick Medley, Jamaica`;
+  ).textContent = `© ${t} Patrick Medley, Jamaica`;
 }
-
 function displayLastModified() {
-  const lastModified = document.lastModified;
-  document.getElementById(
-    "lastModified"
-  ).textContent = `Last Modified: ${lastModified}`;
+  const t = document.lastModified;
+  document.getElementById("lastModified").textContent = `Last Modified: ${t}`;
 }
-
 function toggleMenu() {
-  const nav = document.querySelector("nav");
-  nav.classList.toggle("show");
+  document.querySelector("nav").classList.toggle("show");
 }
-
 document.addEventListener("DOMContentLoaded", () => {
-  displayCopyright();
-  displayLastModified();
+  displayCopyright(), displayLastModified();
 });
